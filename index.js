@@ -93,7 +93,7 @@ function CemberinAlani(cemberinyaricapi, pi) {
 
 let ucetambolunenler,
   enkucuk,
-  enbuyuk=0;
+  enbuyuk=0,
   ucebolunenlerintoplami,
   besyuzdenkucuksayilar,
   siralisayilar,
@@ -101,9 +101,9 @@ let ucetambolunenler,
 
 // 3a çözüm
 
-for (let=i; i < sayilar.length; i++) {
+for (let i=0; i < sayilar.length; i++) {
   if (enbuyuk < sayilar[i]){
-    enbuyuk=sayilar[i];
+    enbuyuk = sayilar[i];
   }
 }
 
