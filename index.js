@@ -141,7 +141,21 @@ besyuzdenkucuksayilar = sayilar.filter(sayi => sayi < 500);
 
 // 3f çözümü
 
-/* kodlar buraya */
+tekraredensayilar = {};
+
+sayilar = (sayi) => {
+  const depo = {};
+  for (let rakam of sayi) {
+    if (depo[rakam] === undefined){
+      depo[rakam] = 1;
+    }else {
+      depo[rakam]++;
+    }
+  } return depo;
+}
+
+
+tekraredensayilar = `${rakam} sayısı ${depo} tekrar edilmiştir`
 
 /*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
 
