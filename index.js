@@ -52,7 +52,7 @@ function KareninAlani(kenaruzunlugu) {
 */
 
 function CemberinCevresi(cemberinyaricapi) {
-  return 2* pi *cemberinyaricapi *;
+  return 2* pi *cemberinyaricapi ;
 }
 
 
@@ -67,7 +67,7 @@ function CemberinCevresi(cemberinyaricapi) {
 */
 
 function CemberinAlani(cemberinyaricapi, pi) {
-  return pi * (cemberinyaricapi *cemberinyaricapi);
+  return pi * cemberinyaricapi *cemberinyaricapi;
 }
 
 /* (Oto test yok) Yukarıdaki CemberinAlani fonksiyonunu yarıçap = 15 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
