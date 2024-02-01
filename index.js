@@ -127,9 +127,7 @@ if (sayi % 3 === 0){
 
 //3c çözümü:
 
-ucebolunenlerintoplami = ucetambolunenler.reduce((toplam, sayi) => {
-  return toplam + sayi;
-})
+ucebolunenlerintoplami = ucetambolunenler.reduce((toplam, sayi) => toplam + sayi , 0);
 
 // 3d çözümü
 
