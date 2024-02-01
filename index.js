@@ -2,6 +2,7 @@
 
 const pi = 3.14159;
 
+
 const sayilar = [
   45, 856, 12.5, 63, 0.02, 154, 2, 54, 78, 61.7, 654, 26, 12.5, 63, 969, 152,
   32, 31, 14, 74, 32, 365.9, 5.2, 45, 76, 20, 27.4, 562, 12.15, 365.85, 45.87,
@@ -109,7 +110,7 @@ for (let i=0; i < sayilar.length; i++) {
 
 const siraliSayi = [...sayilar]
 siraliSayi.sort ((a,b) => a-b)
-enKucuk = siraliSayi[0]
+enkucuk = siraliSayi[0]
 
 
 
@@ -134,14 +135,14 @@ ucebolunenlerintoplami = ucetambolunenler.reduce((toplam, sayi) => toplam + sayi
 besyuzdenkucuksayilar = [];
 besyuzdenkucuksayilar = sayilar.filter(sayi => sayi < 500);
 
-
+console.log("3d", besyuzdenkucuksayilar)
 // 3e çözümü
 
 /*110.satırda enküçük sayıyı bulmak için bu işlemi yaptım...*/
 
 // 3f çözümü
 
-tekraredensayilar = {};
+/*tekraredensayilar = {};
 
 sayilar = (sayi) => {
   const depo = {};
@@ -155,7 +156,7 @@ sayilar = (sayi) => {
 }
 
 
-tekraredensayilar = `${rakam} sayısı ${depo} tekrar edilmiştir`
+tekraredensayilar = `${rakam} sayısı ${depo} tekrar edilmiştir`*/
 
 /*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
 
