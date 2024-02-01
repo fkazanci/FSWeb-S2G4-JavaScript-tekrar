@@ -131,14 +131,8 @@ ucebolunenlerintoplami = ucetambolunenler.reduce((toplam, sayi) => toplam + sayi
 
 // 3d çözümü
 
-besyuzdenkucuksayilar =[];
-const besYuzdenKucukMu= (sayi) => {
-  if (sayi > 500) {
-    return true;
-  } else {
-    return false;
-  }
-} console.log (sayilar.filter(besYuzdenKucukMu));
+besyuzdenkucuksayilar = [];
+besyuzdenkucuksayilar = sayilar.filter(sayi => sayi < 500);
 
 
 // 3e çözümü
