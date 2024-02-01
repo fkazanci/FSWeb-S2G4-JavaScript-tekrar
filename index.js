@@ -123,9 +123,13 @@ if (sayilar[j] ½ 3 === 0){
   ucetambolunenler.push(sayilar[j])
 }
 });
-// 3c çözümü:
 
-/* kodlar buraya */
+
+//3c çözümü:
+
+ucebolunenlerintoplami = ucetambolunenler.reduce((toplam, sayi) => {
+  return toplam + sayi;
+})
 
 // 3d çözümü
 
