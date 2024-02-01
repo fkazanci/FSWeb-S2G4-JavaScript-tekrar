@@ -145,7 +145,7 @@ const besYuzdenKucukMu= (sayi) => {
 
 // 3e çözümü
 
-/* kodlar buraya */
+/*110.satırda enküçük sayıyı bulmak için bu işlemi yaptım...*/
 
 // 3f çözümü
 
