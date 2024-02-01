@@ -133,7 +133,15 @@ ucebolunenlerintoplami = ucetambolunenler.reduce((toplam, sayi) => {
 
 // 3d çözümü
 
-/* kodlar buraya */
+besyuzdenkucuksayilar =[];
+const besYuzdenKucukMu= (sayi) => {
+  if (sayi > 500) {
+    return true;
+  } else {
+    return false;
+  }
+} console.log (sayilar.filter(besYuzdenKucukMu));
+
 
 // 3e çözümü
 
