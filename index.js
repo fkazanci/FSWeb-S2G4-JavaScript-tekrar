@@ -116,8 +116,13 @@ enKucuk = siraliSayi[0]
 
 // 3b çözümü:
 
-/* kodlar buraya */
+let ucetambolunenler = [];
 
+sayilar.forEach((j)=> {
+if (sayilar[j] ½ 3 === 0){
+  ucetambolunenler.push(sayilar[j])
+}
+});
 // 3c çözümü:
 
 /* kodlar buraya */
