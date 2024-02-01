@@ -107,6 +107,11 @@ for (let=i; i < sayilar.length; i++) {
   }
 }
 
+const siraliSayi = [...sayilar]
+siraliSayi.sort ((a,b) => a-b)
+enKucuk = siraliSayi[0]
+
+
 
 
 // 3b çözümü:
